@@ -21,7 +21,7 @@ public class ManagerAssistant : Employee
         else if (NextApprover != null)
         {
             CustomerProcess customerProcess = new CustomerProcess();
-            customerProcess.Amount = req.Amount.;
+            customerProcess.Amount = req.Amount;
             customerProcess.Name = req.Name;
             customerProcess.EmployeeName = "Şube Müdür Yardımcısı - Özge Alkan";
             customerProcess.Description = "Para Çekme Tutarı Şube Müdür Yardımcısının Günlük Ödeyebileceği Limiti Aştığı İçin İşlem Şube Müdürüne Yönlendirildi";
