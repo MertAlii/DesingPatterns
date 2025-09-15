@@ -1,0 +1,6 @@
+@DesignPattern.ChainOfResponsibility_HostAddress = http://localhost:5022
+
+GET {{DesignPattern.ChainOfResponsibility_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
