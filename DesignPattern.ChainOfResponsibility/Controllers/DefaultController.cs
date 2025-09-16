@@ -11,7 +11,7 @@ namespace DesignPattern.ChainOfResponsibility.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return Ok("Default API is running.");
+            return Ok("Api çalışıyor");
         }
 
         [HttpPost]
